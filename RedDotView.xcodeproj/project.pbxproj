@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2B8E74F0D1B40BD008FB8C /* Pods_RedDotView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133CD1ADD18D469EDE23DDCA /* Pods_RedDotView.framework */; };
+		DF3890B51E343E850071DF7D /* RedDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3890B41E343E850071DF7D /* RedDotView.swift */; };
+		DF43BE131E3217FE003B2A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BE121E3217FE003B2A81 /* AppDelegate.swift */; };
+		DF43BE151E3217FE003B2A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43BE141E3217FE003B2A81 /* ViewController.swift */; };
+		DF43BE181E3217FE003B2A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF43BE161E3217FE003B2A81 /* Main.storyboard */; };
+		DF43BE1A1E3217FE003B2A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF43BE191E3217FE003B2A81 /* Assets.xcassets */; };
+		DF43BE1D1E3217FE003B2A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF43BE1B1E3217FE003B2A81 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		133CD1ADD18D469EDE23DDCA /* Pods_RedDotView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedDotView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		577E20846A05491024AAC20A /* Pods-RedDotView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDotView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedDotView/Pods-RedDotView.debug.xcconfig"; sourceTree = "<group>"; };
+		A04F686A0ECAAD35E02115B6 /* Pods-RedDotView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDotView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedDotView/Pods-RedDotView.release.xcconfig"; sourceTree = "<group>"; };
+		DF3890B41E343E850071DF7D /* RedDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedDotView.swift; sourceTree = "<group>"; };
+		DF43BE0F1E3217FE003B2A81 /* RedDotView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedDotView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF43BE121E3217FE003B2A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF43BE141E3217FE003B2A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF43BE171E3217FE003B2A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF43BE191E3217FE003B2A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF43BE1C1E3217FE003B2A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF43BE1E1E3217FE003B2A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF43BE0C1E3217FE003B2A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B8E74F0D1B40BD008FB8C /* Pods_RedDotView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D7140317E01E364F9A12C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				577E20846A05491024AAC20A /* Pods-RedDotView.debug.xcconfig */,
+				A04F686A0ECAAD35E02115B6 /* Pods-RedDotView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D717426C0CD04AEB5970049E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133CD1ADD18D469EDE23DDCA /* Pods_RedDotView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF43BE061E3217FE003B2A81 = {
+			isa = PBXGroup;
+			children = (
+				DF43BE111E3217FE003B2A81 /* RedDotView */,
+				DF43BE101E3217FE003B2A81 /* Products */,
+				28D7140317E01E364F9A12C5 /* Pods */,
+				D717426C0CD04AEB5970049E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF43BE101E3217FE003B2A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF43BE0F1E3217FE003B2A81 /* RedDotView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF43BE111E3217FE003B2A81 /* RedDotView */ = {
+			isa = PBXGroup;
+			children = (
+				DF3890B41E343E850071DF7D /* RedDotView.swift */,
+				DF43BE121E3217FE003B2A81 /* AppDelegate.swift */,
+				DF43BE141E3217FE003B2A81 /* ViewController.swift */,
+				DF43BE161E3217FE003B2A81 /* Main.storyboard */,
+				DF43BE191E3217FE003B2A81 /* Assets.xcassets */,
+				DF43BE1B1E3217FE003B2A81 /* LaunchScreen.storyboard */,
+				DF43BE1E1E3217FE003B2A81 /* Info.plist */,
+			);
+			path = RedDotView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF43BE0E1E3217FE003B2A81 /* RedDotView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF43BE211E3217FE003B2A81 /* Build configuration list for PBXNativeTarget "RedDotView" */;
+			buildPhases = (
+				C51FFAB53B9496048C38AF66 /* [CP] Check Pods Manifest.lock */,
+				DF43BE0B1E3217FE003B2A81 /* Sources */,
+				DF43BE0C1E3217FE003B2A81 /* Frameworks */,
+				DF43BE0D1E3217FE003B2A81 /* Resources */,
+				CEC7EECD5B5AE2C61D6CBD95 /* [CP] Embed Pods Frameworks */,
+				25F6722BB5012101CA660A0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedDotView;
+			productName = RedDotView;
+			productReference = DF43BE0F1E3217FE003B2A81 /* RedDotView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF43BE071E3217FE003B2A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "宁国通";
+				TargetAttributes = {
+					DF43BE0E1E3217FE003B2A81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ASWA2V478U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF43BE0A1E3217FE003B2A81 /* Build configuration list for PBXProject "RedDotView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF43BE061E3217FE003B2A81;
+			productRefGroup = DF43BE101E3217FE003B2A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF43BE0E1E3217FE003B2A81 /* RedDotView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF43BE0D1E3217FE003B2A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF43BE1D1E3217FE003B2A81 /* LaunchScreen.storyboard in Resources */,
+				DF43BE1A1E3217FE003B2A81 /* Assets.xcassets in Resources */,
+				DF43BE181E3217FE003B2A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F6722BB5012101CA660A0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDotView/Pods-RedDotView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51FFAB53B9496048C38AF66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC7EECD5B5AE2C61D6CBD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDotView/Pods-RedDotView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF43BE0B1E3217FE003B2A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3890B51E343E850071DF7D /* RedDotView.swift in Sources */,
+				DF43BE151E3217FE003B2A81 /* ViewController.swift in Sources */,
+				DF43BE131E3217FE003B2A81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF43BE161E3217FE003B2A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF43BE171E3217FE003B2A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF43BE1B1E3217FE003B2A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF43BE1C1E3217FE003B2A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF43BE1F1E3217FE003B2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF43BE201E3217FE003B2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF43BE221E3217FE003B2A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577E20846A05491024AAC20A /* Pods-RedDotView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASWA2V478U;
+				INFOPLIST_FILE = RedDotView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lczp.ngt.ios.app.RedDotView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF43BE231E3217FE003B2A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04F686A0ECAAD35E02115B6 /* Pods-RedDotView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ASWA2V478U;
+				INFOPLIST_FILE = RedDotView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lczp.ngt.ios.app.RedDotView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF43BE0A1E3217FE003B2A81 /* Build configuration list for PBXProject "RedDotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF43BE1F1E3217FE003B2A81 /* Debug */,
+				DF43BE201E3217FE003B2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF43BE211E3217FE003B2A81 /* Build configuration list for PBXNativeTarget "RedDotView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF43BE221E3217FE003B2A81 /* Debug */,
+				DF43BE231E3217FE003B2A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF43BE071E3217FE003B2A81 /* Project object */;
+}

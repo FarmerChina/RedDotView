@@ -74,7 +74,13 @@ class RedDotView: UIView {
     }
     
     
-    
+    /// 获取当前小红点view是否隐藏
+    /// - Returns: true 表示隐藏 反之 显示
+    func  redDotIsHide()->Bool{
+        let isHide:Bool = self.redDotLabel.isHidden
+        print(isHide)
+        return isHide
+    }
     
     
     

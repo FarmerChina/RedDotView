@@ -58,19 +58,17 @@ class ViewController: UIViewController {
     /// 显示或者隐藏isHide
     @IBAction func hidOrShowRedDotAction(_ sender: UIButton) {
         
-        self.isHide = !isHide
-        
         if self.vRDView != nil {
-            self.vRDView.isHide = isHide
-            self.vNRDView.isHide = isHide
+            self.vRDView.isHide = !vRDView.redDotIsHide()
+            self.vNRDView.isHide = !vNRDView.redDotIsHide()
         }
         
         if self.cRDView != nil {
-            self.cRDView.isHide = isHide
+            self.cRDView.isHide = !cRDView.redDotIsHide()
         }
         
         if self.cNRDView != nil {
-            self.cNRDView.isHide = isHide
+            self.cNRDView.isHide = !cNRDView.redDotIsHide()
         }
         
     }
